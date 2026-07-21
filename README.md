@@ -9,8 +9,7 @@ computations.  An independently defined recursive tree encoding is proved
 label-preservingly graph-isomorphic to every conventional tree; the two
 quartet distances and their maxima are then proved exactly equal for `n ≥ 4`.
 
-The published permuton inequality of Chan--Král'--Noel--Pehova--Sharifzadeh--
-Volec is the sole external mathematical input.  It is represented by the
+The published permuton inequality of Chan--Král'--Noel--Pehova--Sharifzadeh--Volec is the sole external mathematical input.  It is represented by the
 explicit proposition `PermutonPatterns.PublishedPermutonPatternSumInequality`
 and is passed as a hypothesis to the main theorem; it is not declared as a
 Lean axiom.  Individual pattern densities, their disjoint sum, the Borel step
