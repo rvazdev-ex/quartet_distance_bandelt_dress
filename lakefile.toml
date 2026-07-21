@@ -1,0 +1,11 @@
+name = "quartet_distance_bandelt_dress"
+version = "0.1.0"
+defaultTargets = ["QuartetDistance"]
+
+[[lean_lib]]
+name = "QuartetDistance"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.0"

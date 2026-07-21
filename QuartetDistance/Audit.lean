@@ -1,0 +1,50 @@
+import QuartetDistance
+
+/-!
+# Kernel axiom audit
+
+Building this module asks Lean to report the axioms used by the principal
+results.  The published permuton inequality is an explicit theorem parameter,
+not an axiom declaration, so the reports contain only Lean's standard logical
+foundations.
+-/
+
+#print axioms QuartetDistance.bandelt_dress_main
+#print axioms QuartetDistance.maximumQuartetDistance_normalized_sub_two_thirds_isBigO
+#print axioms QuartetDistance.maximumQuartetDistance_normalized_tendsto
+#print axioms QuartetDistance.graph_bandelt_dress_main
+#print axioms QuartetDistance.graphMaximumQuartetDistance_normalized_sub_two_thirds_isBigO
+#print axioms QuartetDistance.graphMaximumQuartetDistance_normalized_tendsto
+#print axioms QuartetDistance.graphMaximumQuartetDistance_eq_maximum
+#print axioms QuartetDistance.graphMaximumQuartetDistance_eq_syntaxMaximum
+#print axioms QuartetDistance.Permuton.dihedralDensity_stepPermuton
+#print axioms QuartetDistance.Permuton.publishedPermutonInequality_implies_stepPermutonTheorem
+#print axioms QuartetDistance.Permuton.BorelPermuton.measure_unitSquare
+#print axioms QuartetDistance.Permuton.iidPermuton_firstCoordinates_noninjective_zero
+#print axioms QuartetDistance.Permuton.iidPermuton_secondCoordinates_noninjective_zero
+#print axioms QuartetDistance.PermutonPatterns.sum_d_dihedral4_eq_dihedralDensity
+#print axioms QuartetDistance.PermutonPatterns.sum_d_all_eq_one
+#print axioms QuartetDistance.PermutonPatterns.publishedPermutonPatternSumInequality_iff
+#print axioms QuartetDistance.Circular.globalTiedDihedralDensity_eq_stepDihedralDensity
+#print axioms QuartetDistance.Circular.tiedDihedralCount_eq_globalTiedDihedralCount
+#print axioms QuartetDistance.CircularQuotient.K_mk_mk
+#print axioms QuartetDistance.CircularQuotient.circularOrderBound
+#print axioms QuartetDistance.Circular.closure_rotation_reflection_eq_dihedralSubgroup
+#print axioms QuartetDistance.Splits.card_common_wrong
+#print axioms QuartetDistance.RibbonRestriction.boundary_circularInterval_oppositeEdgeSide
+#print axioms QuartetDistance.GeneralRestriction.restrict_boundary_mem_inducedTree_frontier
+#print axioms QuartetDistance.Tree.PhyloTree.wrongChannelOn_other_count
+#print axioms QuartetDistance.TreeAdequacy.PhyloTree.graph_isTree
+#print axioms QuartetDistance.TreeAdequacy.PhyloTree.degree_profile
+#print axioms QuartetDistance.GraphModel.BinaryPhyloGraph.encodeGraphIso_label_iff
+#print axioms QuartetDistance.GraphQuartet.PhyloTree.graphDisplaysSplit_iff_eq_displayedSplitOn
+#print axioms QuartetDistance.CanonicalBinaryPhyloGraph.graphDisplaysTopology_existsUnique
+#print axioms QuartetDistance.graphQuartetDistance_eq_encodeAt
+#print axioms QuartetDistance.GraphRibbon.PhyloTree.edgeSides_circularIntervals
+#print axioms QuartetDistance.Counting.expectedK_eq
+#print axioms QuartetDistance.Upper.quartetDistance_cleared_upper_bound
+#print axioms QuartetDistance.Lower.exists_relabeling_two_thirds
+#print axioms QuartetDistance.normalizedUpperCoefficient_expansion
+#print axioms QuartetDistance.normalizedRemainder_isBigO
+#print axioms QuartetDistance.first_trivial_improvement
+#print axioms QuartetDistance.first_below_point_six_nine
